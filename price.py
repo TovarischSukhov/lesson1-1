@@ -1,6 +1,32 @@
-def get_sum(one, two, delimiter='&')
-    one = abs(float(one))
-    two = abs(float(two)
-    delimiter = abs(float(two))
+# Task 1
 
-    print(get_sum("Learn", "python"))
+def get_summ(one, two, delimiter=' '):
+    	return str(one).upper() + str(delimiter) + str(two).upper()
+sum_string = get_summ ('Learn', 'python', " - ")
+print(sum_string)
+
+
+# Task 2
+
+def format_price(price):
+    price = int(price)
+    return "Price: " + str(price) + " rub."
+display_price = format_price(56.24)
+print(display_price)
+
+
+# def discounted(price, discount, max_discount=50):
+    # price = abs(float(price))
+    # discount = abs(float(discount))
+    # max_discount = abs(float(discount))
+    # if max_discount > 99:
+    #    raise ValueError("Max discount cannot be more then 99%")
+    #if discount >= max_discount:
+        #price_with_discount = price
+    #else:
+        #price_with_discount = price - (price * discount / 100)
+    #return price_with_discount
+
+#print(discounted(100, 50, max_discount=100))
+
+
