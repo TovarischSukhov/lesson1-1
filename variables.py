@@ -1,3 +1,3 @@
 a = "Hello"
-a = a + ", mate!"
+a = a + ", m8!"
 print(a)

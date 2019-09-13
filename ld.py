@@ -1,4 +1,4 @@
-# Lists
+# Lists #
 
 #Task 1
 nums = ["3", "5", "7", "9", "10.5"]
@@ -22,7 +22,7 @@ print(nums)
 print(" ")
 
 
-#Dictionaries
+# Dictionaries #
 
 weather = {
     "city": "Москва",

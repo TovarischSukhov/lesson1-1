@@ -1,5 +1,5 @@
 user_info = {
-    "first_name": "Maxim",
+    "first_name": "Maximus",
     "last_name": "Shishkin",
 }
 
