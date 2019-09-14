@@ -1,6 +1,6 @@
-name = input("Enter your name: ")
+ name = input("Enter your name: ")#кажется лишний пробел 
 num_1 = str("4")
-num_2 = str("3,333")
+num_2 = str("3,333") #зачем строку от строки брать?
 
 print("Hello pythonist, " + name + "!")
 
